@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>homework2</name>
+	<name>h3</name>
 	<comment>Create By HBuilder</comment>
 	<projects>
 	</projects>
@@ -14,16 +14,9 @@
 	<natures>
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>第二次作业.html</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Desktop/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%BD%9C%E4%B8%9A.html</locationURI>
-		</link>
-	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1570953136238</id>
+			<id>1570954016437</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
