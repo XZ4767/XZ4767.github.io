@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+        	function jige(){
+        		var tr=document.getElementById("fa").insertRow();
+        		var td1=tr.insertCell();
+        		var td2=tr.insertCell();
+        		var td3=tr.insertCell();
+        		td1.innerHTML=document.getElementById("a1").value;
+        		td2.innerHTML=document.getElementById("a2").value;
+        		var x=document.createElement("input");
+        		td3.appendChild(x);
+        		x.onclick=function(){
+        			this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);
+        		}
+        		x.setAttribute("value","删除");
+        		x.setAttribute("type","button");	
+        	}
+        </script>
+	</head>
+	<body>
+		<label>姓名</label>
+		<input type="number" id="a1"/>
+		<label>学号</label>
+		<input type="text" id="a2" />
+		<input type="button" value="增加" onclick="jige()" / >
+		<br />
+		<table border="1px" style="border-collapse: collapse;" id="fa">
+			<tr id="tr">
+				<td>姓名</td>
+				<td>学号</td>
+				<td><a href="">删除</a></td>
+			</tr>	
+		</table>
+	</body>
+<ml>
