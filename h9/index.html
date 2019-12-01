@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn(1000);
+    $("#div2").fadeIn(1000);
+    $("#div3").fadeIn(3000);
+    $("#div4").fadeIn(3000);
+    $("#div5").fadeIn(5000);
+  });
+   });
+</script>
+<style>
+	body{
+		background-attachment: fixed;
+		background: url(img/6d92a39bd4119c3ec99fb2c7a0a45bd1.jpg);
+		background-size: cover;
+	}
+	.box1{
+		width: 50px;
+		height: 50px; 
+		margin:  0 auto;
+	}
+	    .nav{
+				list-style: none;
+			}
+			.nav li{
+				float: left;
+				margin-left: 130px;
+				margin-right: 100px ;
+			}
+			.nav li a{
+				font-size: 30px;
+				text-decoration: none;
+				color: white;
+				display: block;
+				width: 120px;
+    			line-height: 50px;
+				text-align: center;
+			}
+</style>
+</head>
+<body>
+<div class="box1">
+	<button style="height: 40px; width: 40px;" >🐔</button>
+</div>
+<br><br>
+<div id="div1" style="width:100%;height:80px;display:none; border:1px solid black; opacity: 0.4; background-color: black;">
+	<ul class="nav">
+					<li><a href="http://127.0.0.1:8020/jieshao/index.html?__hbt=1575211318783">项目介绍</a></li>
+					<li><a href="http://127.0.0.1:8020/shichang/index.html?__hbt=1575211470305">市场</a></li>
+					<li><a href="http://127.0.0.1:8020/guanli/index.html?__hbt=1575211489634">管理人员</a></li>
+					<li><a href="http://127.0.0.1:8020/fenxi/index.html?__hbt=1575211512385">分析</a></li>
+				</ul>
+</div>
+<div id="div2" style="width:100%;height:50px;display:none; opacity: 0; background-color: black;">
+</div>
+<div id="div3" style="width:100%;height:200px;display:none; border:1px solid black; opacity: 0.7; background-color: black;">
+	<a style="font-family: '楷体'; font-size: xx-large; color: white;">创业计划———共享厨房<br>
+	&nbsp&nbsp&nbsp"俗话说民以食为天"，从古至今吃饭是人生命存在基本的条件，现代人对于吃的定义，早已不再局限于吃饱、吃好，更多的在追寻一种饮食中内含的文化，一种精神。
+	<br>&nbsp&nbsp&nbsp你是不是不想每天都在食堂吃那些一样口味的菜？你是不是想去外面吃那些美味的菜却又担心不安全？你是不是想体验和同学朋友一起下厨的感觉？共享厨房就是你最好的选择！！！</a>
+</div>
+<div id="div4" style="width:100%;height:50px;display:none; opacity: 0; background-color: black;">
+</div>
+<div id="div5" style="width:500px;height:400px;display:none; border:1px solid black; opacity: 0.8; background-color: black;margin: 0 auto;">
+	<img width="100%" height="100%" src="img/n_v1bkuymc6lgngfnwbfkiea.jpg" />
+</div>
+</body>
+</html>
