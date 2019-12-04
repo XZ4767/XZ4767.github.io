@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  .box1{
+  	height: 100px;
+  	width: 10%;
+  	float: left;
+  }
+  .box2{
+  	height: 100px;
+  	width: 10%;
+  	float:left ;
+  }
+  .box3{
+  	height: 100px;
+  	width: 80%;
+  	float:left ;
+  
+  }
+  .box4{
+  	height: 50px;
+  	width: 100%;
+  	float: left;
+  }
+  .box5{
+  	height: 600px;
+  	width: 50%;
+  	float: left;
+  }
+  .box6{
+  	height: 600px;
+  	width: 20%;
+  	float: left;
+  }
+  .box7{
+  	height: 600px;
+  	width: 30%;
+  	float: left;
+  }
+  .box8{
+  	height: 50px;
+  	width: 100%;
+  	float: left;
+  }
+  .box9{
+  	height: 1000px;
+  	width: 100%;
+  	background: gainsboro;
+  	float: left;
+  }
+  .box10{
+  	height: 850px;
+  	width: 100%;
+  	background: white;
+  	float: left;
+  }
+
+  .box12{
+  	height: 700px;
+  	width: 100%;
+  	background:grey;
+  	float: left;
+  }
+  .box13{
+  	height: 200px;
+  	width: 200px;
+  	margin-left:400px;
+  }
+  .box14{
+  	height:450px;
+  	width: 760px;
+  }
+   .nav{
+				list-style: none;
+				margin-left: 100px;
+				margin-top: 20px;
+			}
+			.nav li{
+				float: left;
+				margin-left: 130px;
+				margin-right: 100px ;
+			}
+			.nav li a{
+				font-size: 30px;
+				text-decoration: none;
+				color: black;
+				display: block;
+				width: 120px;
+    		line-height: 50px;
+				text-align: center;
+				font-family: "楷体";
+				color: indianred;
+				text-shadow: 5px 5px 5px #FF0000;
+			}
+			.box15{
+				height: 200px;
+				width: 100%;
+			}
+			.box16{
+				height: 200px;
+				width: 100%;
+			}
+			.box17{
+				height: 200px;
+				width: 100%;
+			}
+			.shop{
+				height: 200px;
+				width: 100%;
+				display: inline-block;
+
+				transition: all 0.5s;
+				margin: ;
+			}
+			.shop:hover{
+				transform: scale(1.15);
+			}
+			.box18{
+				height: 80px;
+				width: 200px;
+				margin-left: 200px;
+				margin-top: 50px;
+			}
+			.box19{
+				height: 30px;
+				width: 100%;
+				background: gainsboro ;
+			}
+			.box20{
+				height: 350px;
+				width: 1100px;
+				margin-left: 160px;
+			}
+			.box21{
+				height:10px;
+				width: 100%;
+				background: gainsboro;
+			}
+			.box22{
+				height: 300px;
+				width:300px;
+				margin-left: 215px;
+				float: left;
+			}
+			.box23{
+				height: 300px;
+				width: 30px;
+				float: left;
+			}
+			.box24{
+				height: 300px;
+				width:300px;
+				float: left;
+			}
+			.box25{
+				height: 300px;
+				width: 30px;
+				float: left;
+			}
+			.box26{
+				height: 300px;
+				width:300px;
+				float: left;
+			}
+			.shop1{
+				height: 300px;
+				width: 300px;
+				display: inline-block;
+
+				transition: all 0.5s;
+				margin: ;
+			}
+			.shop1:hover{
+				transform: scale(1.15);
+			}
+			.shop2{
+				height: 250px;
+				width: 250px;
+				display: inline-block;
+
+				transition: all 0.5s;
+				margin: ;
+			}
+			.shop2:hover{
+				transform: scale(1.15);
+			}
+			.box27{
+				height: 100px;
+				width:300px;
+				margin-left: 215px;
+				float: left;
+			}
+			.box28{
+				height: 100px;
+				width: 30px;
+				float: left;
+			}
+			.box29{
+				height: 100px;
+				width:300px;
+				float: left;
+			}
+			.box30{
+				height: 100px;
+				width: 30px;
+				float: left;
+			}
+			.box31{
+				height: 100px;
+				width:300px;
+				float: left;
+			}
+			.box32{
+				height: 80px;
+				width: 200px;
+				margin-left: 200px;
+				margin-top: 50px;
+			}
+			.box33{
+				height: 30px;
+				width: 100%;
+			}
+			.box34{
+				height: 300px;
+				width: 300px;
+				margin-left: 160px;
+				background:gainsboro;
+				float: left;
+			}
+			.box35{
+				height: 300px;
+				width: 30px;
+				float: left;
+			}
+			.box36{
+				height: 300px;
+				width: 300px;
+				float: left;
+			}
+			.box37{
+				height: 300px;
+				width: 30px;
+				float: left;
+			}
+			.box38{
+				height: 300px;
+				width: 300px;
+				float: left;
+			}
+			.box39{
+				height: 300px;
+				width: 30px;
+				float: left;
+			}
+			.box40{
+				height: 300px;
+				width: 300px;
+				float: left;
+			}
+			.box41{
+				height: 30px;
+				width: 100%;
+				float: left;
+			}
+			.box42{
+				height: 300px;
+				width: 300px;
+				margin-left: 490px;
+				float: left;
+			}
+			.box43{
+				height: 300px;
+				width: 30px;
+				float: left;
+			}
+			.box44{
+				height: 300px;
+				width: 300px;
+				float: left;
+			}
+			.box45{
+				height: 300px;
+				width: 30px;
+				float: left;
+			}
+			.box46{
+				height: 300px;
+				width: 300px;
+				float: left;
+			}
+			.box47{
+				height: 250px;
+				width: 250px;
+				margin: 0 auto;
+			}
+			.box48{
+				height: 250px;
+				width: 250px;
+				margin: 0 auto;
+			}
+			.box49{
+				height: 250px;
+				width: 250px;
+				margin: 0 auto;
+			}
+			.box50{
+				height: 250px;
+				width: 250px;
+				margin: 0 auto;
+			}
+			.box51{
+				height: 250px;
+				width: 250px;
+				margin: 0 auto;
+			}
+			.box52{
+				height: 250px;
+				width: 250px;
+				margin: 0 auto;
+			}
+			.box53{
+				height: 550px;
+				width:1400px;
+				margin: 0 auto;
+				margin-top: 75px;
+				background: black;
+				opacity: 0.6;
+			}
+			.box54{
+				height: 200px;
+				width: 200px;
+				margin-left: 100px;
+				float: left;
+			}
+			.box55{
+				height: 380px;
+				width:200px;
+				float: left;
+			}
+			.box56{
+				height: 380px;
+				width:900px;
+				float: left;
+			}
+  </style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2">
+		<img width="100%" height="100%" src="img/QQ图片20191203201357.jpg">
+	</div>
+    <div class="box3">
+    	<ul class="nav">
+					<li><a href="../h9/index.html">创业计划</a></li>
+					<li><a href="../h10.2/index.html">表单</a></li>
+					<li><a href="../h10.3/index.html">了解更多</a></li>
+				</ul>
+    </div>
+<div id="demo" class="carousel slide" data-ride="carousel" style="float: left;">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/01bca35b5062e2a8012036be79c5bd.jpg@2o.jpg">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/1-1Z9152156420-L.jpg">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/QQ图片20191202210757.jpg">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev"> 
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="box4"></div>
+<div class="box5">
+	<div class="box13">
+		<img width="100%" height="100%" src="img/QQ图片20191203201357.jpg">
+	</div>
+	<div class="box14">
+		<a style="font-family: '楷体'; font-size: x-large; color: pink;text-shadow: 5px 5px 5px pink;">&nbsp&nbsp&nbsp&nbsp阿鸡轰趴馆隶属于湘潭大学琴湖公寓18栋218有限公司，阿鸡轰趴馆专为公司、亲朋好友学生团体等</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: plum;text-shadow: 5px 5px 5px plum;">提供排队聚会，集住宿、聚餐、KTV、家庭影院、麻将、台球、乒乓球、室内</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: palevioletred;text-shadow: 5px 5px 5px palevioletred;">篮球机、桌上主球、桌游、小霸王游戏机、Xbox体感游戏等多种娱乐活动形式为</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: mediumpurple;text-shadow: 5px 5px 5px mediumpurple">一体的中大型欢乐场所，其中配备火锅、烧烤用具、烘焙、DIY，多种聚餐形式，无论是生日派对、班级聚会、社团轰趴</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: purple;text-shadow: 5px 5px 5px purple;">、老乡会、朋友聚会、主题会、企业公益活动等，绝对让您花较低的钱，乐尽您所玩。
+	</div>
+</div>
+<div class="box6">
+	<div class="box15">
+		<img class="shop" src="img/131702948.jpg" width="100%" height="100%">
+	</div>
+	<div class="box16">
+		<img class="shop" src="img/015c5857fd96aba84a0d304f52ca52.jpg" width="100%" height="100%">
+	</div>
+	<div class="box17">
+		<img class="shop" src="img/131703001.jpg" width="100%" height="100%">
+	</div>
+</div>
+<div class="box7">
+<a style="font-family: '楷体';font-size: -webkit-xxx-large;color: hotpink;text-shadow: 5px 5px 5px hotpink"><br>实<a style="font-family: '楷体';font-size: -webkit-xxx-large;color:darkorchid;text-shadow: 5px 5px 5px darkorchid"><br>&nbsp&nbsp&nbsp&nbspLIVE</a>
+<a style="font-family: '楷体';font-size: -webkit-xxx-large;color: plum;text-shadow: 5px 5px 5px plum"><br>景</a>
+<a style="font-family: '楷体';font-size: -webkit-xxx-large;color: mediumpurple;text-shadow: 5px 5px 5px mediumpurple"><br><br>拍</a><a style="font-family: '楷体';font-size: -webkit-xxx-large;color:mediumvioletred;text-shadow: 5px 5px 5px mediumvioletred"><br>&nbsp&nbsp&nbsp&nbspACTION</a>
+<a style="font-family: '楷体';font-size: -webkit-xxx-large;color: purple;text-shadow: 5px 5px 5px purple"><br>摄</a>
+</div>
+<div class="box8"></div>
+<div class="box9">
+<div class="box18">
+		<img width="100%" height="100%" src="img/QQ图片20191203231345.png">
+	</div>
+	<div class="box19"></div>
+	<div class="box20">
+		<img width="100%" height="100%" src="img/cg.png">
+	</div>
+	<div class="box21"></div>
+	<div class="box22"><a href="">
+		<img class="shop1" width="100%" height="100%" src="img/1265835808066622540-4586665-1537185092311.jpg" >
+		</a>
+	</div>
+	<div class="box23"></div>
+	<div class="box24"><a href="">
+		<img class="shop1" width="100%" height="100%" src="img/129435392.jpg" >
+		</a>
+	</div>
+	<div class="box25"></div>
+	<div class="box26"><a href="">
+		<img class="shop1" width="100%" height="100%" src="img/u=2010485347,2537240556&fm=214&gp=0.jpg">
+		</a>
+	</div>
+	<div class="box27">
+		<a style="font-family: '楷体'; font-size: xx-large; color: indigo;text-shadow: 5px 5px 5px indigo">&nbsp&nbsp&nbsp&nbsp&nbspXX路XX店</a>
+	</div>
+	<div class="box28"></div>
+	<div class="box29">
+		<a style="font-family: '楷体'; font-size: xx-large; color: indigo;text-shadow: 5px 5px 5px indigo">&nbsp&nbsp&nbsp&nbsp&nbspXX路XX店</a>
+	</div>
+	<div class="box30"></div>
+	<div class="box31">
+		<a style="font-family: '楷体'; font-size: xx-large; color: indigo;text-shadow: 5px 5px 5px indigo">&nbsp&nbsp&nbsp&nbsp&nbspXX路XX店</a>
+	</div>
+</div>
+<div class="box10">
+	<div class="box32">
+		<img width="100%" height="100%" src="img/QQ图片20191204111826.png" />
+	</div>
+	<div class="box33"></div>
+	<div class="box34">
+		<a style="font-family: '楷体'; font-size: xx-large; color: black;"><br>&nbsp&nbsp&nbsp&nbsp&nbsp特色分类</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: black;" href=""><br>生日派对</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: black;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="font-family: '楷体'; font-size: x-large; color: black;" href="">婚礼派对</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: black;" href=""><br><br><br>公司团建</a>
+		<a style="font-family: '楷体'; font-size: x-large; color: black;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="font-family: '楷体'; font-size: x-large; color: black;" href="">年会轰趴</a>
+	</div>
+	<div class="box35"></div>
+	<div class="box36">
+		<a style="font-family: '楷体'; font-size: x-large; color: black;text-shadow: 5px 5px 5px black">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspKTV</a>
+		<div class="box47">
+			<img class="shop2" width="100%" height="100%" src="img/bb73e2bba0e1e15b014b6d633634f5d12251006.jpg">
+		</div>
+	</div>
+	<div class="box37"></div>
+	<div class="box38">
+		<a style="font-family: '楷体'; font-size: x-large; color: black;text-shadow: 5px 5px 5px black">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp桌上足球</a>
+		<div class="box48">
+			<img class="shop2" width="100%" height="100%" src="img/u=2299594526,215104421&fm=26&gp=0.jpg">
+		</div>
+	</div>
+	<div class="box39"></div>
+	<div class="box40">
+		<a style="font-family: '楷体'; font-size: x-large; color: black;text-shadow: 5px 5px 5px black">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp台球</a>
+		<div class="box49">
+			<img class="shop2" width="100%" height="100%" src="img/u=2422954044,4241139521&fm=26&gp=0.jpg.png">
+		</div>
+	</div>
+	<div class="box41"></div>
+	<div class="box42">
+		<a style="font-family: '楷体'; font-size: x-large; color: black;text-shadow: 5px 5px 5px black">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp私人电影</a>
+		<div class="box50">
+			<img class="shop2" width="100%" height="100%" src="img/0de112d10fea8997d11e03ff84b66ec8804445.jpg">
+		</div>
+	</div>
+	<div class="box43"></div>
+	<div class="box44">
+		<a style="font-family: '楷体'; font-size: x-large; color: black;text-shadow: 5px 5px 5px black">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp休息区</a>
+		<div class="box51">
+			<img class="shop2" width="100%" height="100%" src="img/131702929.jpg">
+		</div>
+	</div>
+	<div class="box45"></div>
+	<div class="box46">
+		<a style="font-family: '楷体'; font-size: x-large; color: black;text-shadow: 5px 5px 5px black">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp用餐区</a>
+		<div class="box52">
+			<img class="shop2" width="100%" height="100%" src="img/p82907503.jpg">
+		</div>
+	</div>
+</div>
+<div class="box12">
+	<div class="box53">
+	<br><br><br><br><br><br><br><div class="box54">
+		<img width="100%" height="100%" src="img/u=3454533913,553477112&fm=26&gp=0.jpg.gif">
+	</div>
+	<div class="box55"></div>
+	<div class="box56">
+		<a style="font-family: '楷体'; font-size: x-large; color: white;"><br><br><br>联系电话：17373255996&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp公司地址：湘潭市雨湖区湘潭大学琴湖18栋218室<br>商务合作：204357001@qq.com<br>加盟咨询：204357001@qq.com<br>技术支持：邢朕&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp官方网址：https://xz4767.github.io/h10.1/index.html
+</a> 
+	</div>
+	</div>
+</div>
+</body>
+</html>
